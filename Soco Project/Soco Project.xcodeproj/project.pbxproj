@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D069A3260FDE72009AA67E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069A2260FDE72009AA67E /* AppDelegate.swift */; };
+		18D069A5260FDE72009AA67E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069A4260FDE72009AA67E /* SceneDelegate.swift */; };
+		18D069A7260FDE72009AA67E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069A6260FDE72009AA67E /* ContentView.swift */; };
+		18D069A9260FDE7A009AA67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D069A8260FDE7A009AA67E /* Assets.xcassets */; };
+		18D069AC260FDE7A009AA67E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D069AB260FDE7A009AA67E /* Preview Assets.xcassets */; };
+		18D069AF260FDE7A009AA67E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D069AD260FDE7A009AA67E /* LaunchScreen.storyboard */; };
+		18D069BA260FDE7C009AA67E /* Soco_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069B9260FDE7C009AA67E /* Soco_ProjectTests.swift */; };
+		18D069C5260FDE7C009AA67E /* Soco_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069C4260FDE7C009AA67E /* Soco_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D069B6260FDE7C009AA67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D06997260FDE71009AA67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D0699E260FDE72009AA67E;
+			remoteInfo = "Soco Project";
+		};
+		18D069C1260FDE7C009AA67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D06997260FDE71009AA67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D0699E260FDE72009AA67E;
+			remoteInfo = "Soco Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D0699F260FDE72009AA67E /* Soco Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soco Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D069A2260FDE72009AA67E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D069A4260FDE72009AA67E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18D069A6260FDE72009AA67E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18D069A8260FDE7A009AA67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D069AB260FDE7A009AA67E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18D069AE260FDE7A009AA67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D069B0260FDE7A009AA67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D069B5260FDE7C009AA67E /* Soco ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soco ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D069B9260FDE7C009AA67E /* Soco_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soco_ProjectTests.swift; sourceTree = "<group>"; };
+		18D069BB260FDE7C009AA67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D069C0260FDE7C009AA67E /* Soco ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soco ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D069C4260FDE7C009AA67E /* Soco_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soco_ProjectUITests.swift; sourceTree = "<group>"; };
+		18D069C6260FDE7C009AA67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D0699C260FDE72009AA67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D069B2260FDE7C009AA67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D069BD260FDE7C009AA67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D06996260FDE71009AA67E = {
+			isa = PBXGroup;
+			children = (
+				18D069A1260FDE72009AA67E /* Soco Project */,
+				18D069B8260FDE7C009AA67E /* Soco ProjectTests */,
+				18D069C3260FDE7C009AA67E /* Soco ProjectUITests */,
+				18D069A0260FDE72009AA67E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D069A0260FDE72009AA67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D0699F260FDE72009AA67E /* Soco Project.app */,
+				18D069B5260FDE7C009AA67E /* Soco ProjectTests.xctest */,
+				18D069C0260FDE7C009AA67E /* Soco ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D069A1260FDE72009AA67E /* Soco Project */ = {
+			isa = PBXGroup;
+			children = (
+				18D069A2260FDE72009AA67E /* AppDelegate.swift */,
+				18D069A4260FDE72009AA67E /* SceneDelegate.swift */,
+				18D069A6260FDE72009AA67E /* ContentView.swift */,
+				18D069A8260FDE7A009AA67E /* Assets.xcassets */,
+				18D069AD260FDE7A009AA67E /* LaunchScreen.storyboard */,
+				18D069B0260FDE7A009AA67E /* Info.plist */,
+				18D069AA260FDE7A009AA67E /* Preview Content */,
+			);
+			path = "Soco Project";
+			sourceTree = "<group>";
+		};
+		18D069AA260FDE7A009AA67E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18D069AB260FDE7A009AA67E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18D069B8260FDE7C009AA67E /* Soco ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D069B9260FDE7C009AA67E /* Soco_ProjectTests.swift */,
+				18D069BB260FDE7C009AA67E /* Info.plist */,
+			);
+			path = "Soco ProjectTests";
+			sourceTree = "<group>";
+		};
+		18D069C3260FDE7C009AA67E /* Soco ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D069C4260FDE7C009AA67E /* Soco_ProjectUITests.swift */,
+				18D069C6260FDE7C009AA67E /* Info.plist */,
+			);
+			path = "Soco ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D0699E260FDE72009AA67E /* Soco Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D069C9260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco Project" */;
+			buildPhases = (
+				18D0699B260FDE72009AA67E /* Sources */,
+				18D0699C260FDE72009AA67E /* Frameworks */,
+				18D0699D260FDE72009AA67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soco Project";
+			productName = "Soco Project";
+			productReference = 18D0699F260FDE72009AA67E /* Soco Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D069B4260FDE7C009AA67E /* Soco ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D069CC260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco ProjectTests" */;
+			buildPhases = (
+				18D069B1260FDE7C009AA67E /* Sources */,
+				18D069B2260FDE7C009AA67E /* Frameworks */,
+				18D069B3260FDE7C009AA67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D069B7260FDE7C009AA67E /* PBXTargetDependency */,
+			);
+			name = "Soco ProjectTests";
+			productName = "Soco ProjectTests";
+			productReference = 18D069B5260FDE7C009AA67E /* Soco ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D069BF260FDE7C009AA67E /* Soco ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D069CF260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco ProjectUITests" */;
+			buildPhases = (
+				18D069BC260FDE7C009AA67E /* Sources */,
+				18D069BD260FDE7C009AA67E /* Frameworks */,
+				18D069BE260FDE7C009AA67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D069C2260FDE7C009AA67E /* PBXTargetDependency */,
+			);
+			name = "Soco ProjectUITests";
+			productName = "Soco ProjectUITests";
+			productReference = 18D069C0260FDE7C009AA67E /* Soco ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D06997260FDE71009AA67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					18D0699E260FDE72009AA67E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					18D069B4260FDE7C009AA67E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18D0699E260FDE72009AA67E;
+					};
+					18D069BF260FDE7C009AA67E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18D0699E260FDE72009AA67E;
+					};
+				};
+			};
+			buildConfigurationList = 18D0699A260FDE71009AA67E /* Build configuration list for PBXProject "Soco Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D06996260FDE71009AA67E;
+			productRefGroup = 18D069A0260FDE72009AA67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D0699E260FDE72009AA67E /* Soco Project */,
+				18D069B4260FDE7C009AA67E /* Soco ProjectTests */,
+				18D069BF260FDE7C009AA67E /* Soco ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D0699D260FDE72009AA67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D069AF260FDE7A009AA67E /* LaunchScreen.storyboard in Resources */,
+				18D069AC260FDE7A009AA67E /* Preview Assets.xcassets in Resources */,
+				18D069A9260FDE7A009AA67E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D069B3260FDE7C009AA67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D069BE260FDE7C009AA67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D0699B260FDE72009AA67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D069A3260FDE72009AA67E /* AppDelegate.swift in Sources */,
+				18D069A5260FDE72009AA67E /* SceneDelegate.swift in Sources */,
+				18D069A7260FDE72009AA67E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D069B1260FDE7C009AA67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D069BA260FDE7C009AA67E /* Soco_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D069BC260FDE7C009AA67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D069C5260FDE7C009AA67E /* Soco_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D069B7260FDE7C009AA67E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D0699E260FDE72009AA67E /* Soco Project */;
+			targetProxy = 18D069B6260FDE7C009AA67E /* PBXContainerItemProxy */;
+		};
+		18D069C2260FDE7C009AA67E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D0699E260FDE72009AA67E /* Soco Project */;
+			targetProxy = 18D069C1260FDE7C009AA67E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D069AD260FDE7A009AA67E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D069AE260FDE7A009AA67E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D069C7260FDE7C009AA67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D069C8260FDE7C009AA67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D069CA260FDE7D009AA67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Soco Project/Preview Content\"";
+				DEVELOPMENT_TEAM = JC5TT23LFJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Soco Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myself-iggi.Soco-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D069CB260FDE7D009AA67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Soco Project/Preview Content\"";
+				DEVELOPMENT_TEAM = JC5TT23LFJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Soco Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myself-iggi.Soco-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18D069CD260FDE7D009AA67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC5TT23LFJ;
+				INFOPLIST_FILE = "Soco ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myself-iggi.Soco-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soco Project.app/Soco Project";
+			};
+			name = Debug;
+		};
+		18D069CE260FDE7D009AA67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC5TT23LFJ;
+				INFOPLIST_FILE = "Soco ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myself-iggi.Soco-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soco Project.app/Soco Project";
+			};
+			name = Release;
+		};
+		18D069D0260FDE7D009AA67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC5TT23LFJ;
+				INFOPLIST_FILE = "Soco ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myself-iggi.Soco-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soco Project";
+			};
+			name = Debug;
+		};
+		18D069D1260FDE7D009AA67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC5TT23LFJ;
+				INFOPLIST_FILE = "Soco ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myself-iggi.Soco-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soco Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D0699A260FDE71009AA67E /* Build configuration list for PBXProject "Soco Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D069C7260FDE7C009AA67E /* Debug */,
+				18D069C8260FDE7C009AA67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D069C9260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D069CA260FDE7D009AA67E /* Debug */,
+				18D069CB260FDE7D009AA67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D069CC260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D069CD260FDE7D009AA67E /* Debug */,
+				18D069CE260FDE7D009AA67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D069CF260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D069D0260FDE7D009AA67E /* Debug */,
+				18D069D1260FDE7D009AA67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D06997260FDE71009AA67E /* Project object */;
+}
