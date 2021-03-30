@@ -15,6 +15,7 @@
 		18D069AF260FDE7A009AA67E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D069AD260FDE7A009AA67E /* LaunchScreen.storyboard */; };
 		18D069BA260FDE7C009AA67E /* Soco_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069B9260FDE7C009AA67E /* Soco_ProjectTests.swift */; };
 		18D069C5260FDE7C009AA67E /* Soco_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069C4260FDE7C009AA67E /* Soco_ProjectUITests.swift */; };
+		18D069D826105162009AA67E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069D726105162009AA67E /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		18D069C0260FDE7C009AA67E /* Soco ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soco ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D069C4260FDE7C009AA67E /* Soco_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soco_ProjectUITests.swift; sourceTree = "<group>"; };
 		18D069C6260FDE7C009AA67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D069D726105162009AA67E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				18D069A2260FDE72009AA67E /* AppDelegate.swift */,
 				18D069A4260FDE72009AA67E /* SceneDelegate.swift */,
 				18D069A6260FDE72009AA67E /* ContentView.swift */,
+				18D069D626105148009AA67E /* Views */,
 				18D069A8260FDE7A009AA67E /* Assets.xcassets */,
 				18D069AD260FDE7A009AA67E /* LaunchScreen.storyboard */,
 				18D069B0260FDE7A009AA67E /* Info.plist */,
@@ -134,6 +137,14 @@
 				18D069C6260FDE7C009AA67E /* Info.plist */,
 			);
 			path = "Soco ProjectUITests";
+			sourceTree = "<group>";
+		};
+		18D069D626105148009AA67E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18D069D726105162009AA67E /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D069A3260FDE72009AA67E /* AppDelegate.swift in Sources */,
+				18D069D826105162009AA67E /* HomeView.swift in Sources */,
 				18D069A5260FDE72009AA67E /* SceneDelegate.swift in Sources */,
 				18D069A7260FDE72009AA67E /* ContentView.swift in Sources */,
 			);
