@@ -9,26 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
   
-  @State var selectedIndex = 2
+  @State var selectedIndex = 0
   
-  let tabBarImagesNames = ["info", "cart", "house.circle", "photo", "map"]
+  let tabBarImagesNames = ["house", "cart", "plus.app.fill", "photo", "map"]
   
   var body: some View {
     VStack{
       Text("The Monarch Project")
-        .font(.system(size: 18, weight: .bold))
+        .font(Font.custom("Kollektif", size: 18.0))
       ZStack{
         switch selectedIndex {
         
         case 0:
-          Color.blue
-            Text("First") //can change to a different view
+          Color("LightOrangeYellow")
+          HomeView()
         case 1:
           Color.red
             Text("Second") //can change to a different view
         case 2:
           Color("LightOrangeYellow")
-            HomeView()
         case 3:
           Color.purple
             Text("Fourth") //can change to a different view
@@ -53,7 +52,8 @@ struct ContentView: View {
             if num == 2 {
               Image(systemName: tabBarImagesNames[num])
                 .font(.system(size: 50, weight: .bold))
-                .foregroundColor(.orange)
+                .foregroundColor(.red)
+                .padding(.bottom, 10)
             } else{
               Image(systemName: tabBarImagesNames[num])
                 .font(.system(size: 24, weight: .bold))
