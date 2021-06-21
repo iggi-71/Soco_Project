@@ -36,6 +36,8 @@
 				</dict>
 			</array>
 		</dict>
+		<key>UIUserInterfaceStyle</key>
+		<string>Light</string>
 	</dict>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
@@ -53,5 +55,7 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 </dict>
 </plist>

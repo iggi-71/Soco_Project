@@ -1,13 +1,13 @@
 //
-//  HomeView.swift
-//  Soco Project
+//  MissionView.swift
+//  The Monarch Project
 //
-//  Created by apple on 3/27/21.
+//  Created by apple on 6/20/21.
 //
 
 import SwiftUI
 
-struct HomeView: View {
+struct MissionView: View {
   
   let UpcomingText = ["MURAL GRAND OPENING", "APRIL 10, 2021", "MITOTE FOOD PARK"]
   let PastText = ["TAKE A LOOK AT", "PAST PROJECTS"]
@@ -141,10 +141,13 @@ struct HomeView: View {
             }
             .padding(1)
             
-            NavigationLink(destination: MissionView()) {
-              Text("Do Something")
-              
-            }
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+              Text("VIEW")
+                .padding()
+                .foregroundColor(.white)
+                .font(Font.custom("Kollektif", size: 15.0))
+                .background(Color("YellowOchre"))
+            })
             Spacer()
           }
         }
@@ -158,3 +161,4 @@ struct HomeView: View {
     }
   }
 }
+

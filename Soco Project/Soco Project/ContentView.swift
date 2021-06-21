@@ -9,14 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
   
-  @State var selectedIndex = 0
+  @State var selectedIndex = 1
+  @State var shouldShowModal = false
   
-  let tabBarImagesNames = ["house", "cart", "plus.app.fill", "photo", "map"]
+  
+  let tabBarImagesNames = ["house.fill", "plus.app.fill", "map"]
   
   var body: some View {
     VStack{
       Text("The Monarch Project")
-        .font(Font.custom("Kollektif", size: 18.0))
+        .font(Font.custom("Kollektif-Bold", size: 18.0))
       ZStack{
         switch selectedIndex {
         
@@ -24,39 +26,36 @@ struct ContentView: View {
           Color("LightOrangeYellow")
           HomeView()
         case 1:
-          Color.red
-            Text("Second") //can change to a different view
-        case 2:
           Color("LightOrangeYellow")
-        case 3:
-          Color.purple
-            Text("Fourth") //can change to a different view
-        case 4:
-          Color.orange
-            Text("Fifth") //can change to a different view
+          FeedView()
+            .fullScreenCover(isPresented: $shouldShowModal, content: {
+              CameraView()
+              
+            })
+        case 2:
+            mapView()
           
         default:
           Text("remaining")
         }
         
       }
-      Spacer()
       
       HStack{
-        ForEach(0..<5) { num in
+        ForEach(0..<3) { num in
           Button(action: {
             selectedIndex = num
           }, label: {
             Spacer()
             
-            if num == 2 {
+            if num == 1 {
               Image(systemName: tabBarImagesNames[num])
-                .font(.system(size: 50, weight: .bold))
+                .font(.system(size: 40, weight: .bold))
                 .foregroundColor(.red)
                 .padding(.bottom, 10)
             } else{
               Image(systemName: tabBarImagesNames[num])
-                .font(.system(size: 24, weight: .bold))
+                .font(.system(size: 25, weight: .bold))
                 .foregroundColor(selectedIndex == num ?  Color(.black) : .init(white: 0.8))
             }
             
@@ -64,8 +63,11 @@ struct ContentView: View {
             Spacer()
           })
           
+          
         }
       }
+      .padding(.leading, 20)
+      .padding(.trailing, 20)
     }
   }
 }

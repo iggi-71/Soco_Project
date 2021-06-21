@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18079D902617F57300D53282 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18079D8F2617F57300D53282 /* FeedView.swift */; };
+		18079D982618285E00D53282 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18079D972618285E00D53282 /* CameraView.swift */; };
+		18079D9D26182AAC00D53282 /* userData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18079D9C26182AAC00D53282 /* userData.swift */; };
+		18AB514D2680123300FE1384 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB514C2680123300FE1384 /* MissionView.swift */; };
 		18D069A3260FDE72009AA67E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069A2260FDE72009AA67E /* AppDelegate.swift */; };
 		18D069A5260FDE72009AA67E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069A4260FDE72009AA67E /* SceneDelegate.swift */; };
 		18D069A7260FDE72009AA67E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069A6260FDE72009AA67E /* ContentView.swift */; };
@@ -16,6 +20,7 @@
 		18D069BA260FDE7C009AA67E /* Soco_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069B9260FDE7C009AA67E /* Soco_ProjectTests.swift */; };
 		18D069C5260FDE7C009AA67E /* Soco_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069C4260FDE7C009AA67E /* Soco_ProjectUITests.swift */; };
 		18D069D826105162009AA67E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D069D726105162009AA67E /* HomeView.swift */; };
+		18E66FD1262B947200C0B0C0 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E66FD0262B947200C0B0C0 /* Map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18D0699F260FDE72009AA67E /* Soco Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soco Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18079D8F2617F57300D53282 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		18079D972618285E00D53282 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		18079D9C26182AAC00D53282 /* userData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userData.swift; sourceTree = "<group>"; };
+		18AB514C2680123300FE1384 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		18D0699F260FDE72009AA67E /* The Monarch Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Monarch Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D069A2260FDE72009AA67E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D069A4260FDE72009AA67E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18D069A6260FDE72009AA67E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,13 +53,14 @@
 		18D069AB260FDE7A009AA67E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18D069AE260FDE7A009AA67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D069B0260FDE7A009AA67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D069B5260FDE7C009AA67E /* Soco ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soco ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D069B5260FDE7C009AA67E /* The Monarch ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Monarch ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D069B9260FDE7C009AA67E /* Soco_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soco_ProjectTests.swift; sourceTree = "<group>"; };
 		18D069BB260FDE7C009AA67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D069C0260FDE7C009AA67E /* Soco ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soco ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D069C0260FDE7C009AA67E /* The Monarch ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Monarch ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D069C4260FDE7C009AA67E /* Soco_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soco_ProjectUITests.swift; sourceTree = "<group>"; };
 		18D069C6260FDE7C009AA67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D069D726105162009AA67E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		18E66FD0262B947200C0B0C0 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +101,9 @@
 		18D069A0260FDE72009AA67E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18D0699F260FDE72009AA67E /* Soco Project.app */,
-				18D069B5260FDE7C009AA67E /* Soco ProjectTests.xctest */,
-				18D069C0260FDE7C009AA67E /* Soco ProjectUITests.xctest */,
+				18D0699F260FDE72009AA67E /* The Monarch Project.app */,
+				18D069B5260FDE7C009AA67E /* The Monarch ProjectTests.xctest */,
+				18D069C0260FDE7C009AA67E /* The Monarch ProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,7 +152,12 @@
 		18D069D626105148009AA67E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18AB514C2680123300FE1384 /* MissionView.swift */,
 				18D069D726105162009AA67E /* HomeView.swift */,
+				18E66FD0262B947200C0B0C0 /* Map.swift */,
+				18079D972618285E00D53282 /* CameraView.swift */,
+				18079D8F2617F57300D53282 /* FeedView.swift */,
+				18079D9C26182AAC00D53282 /* userData.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18D0699E260FDE72009AA67E /* Soco Project */ = {
+		18D0699E260FDE72009AA67E /* The Monarch Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D069C9260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco Project" */;
+			buildConfigurationList = 18D069C9260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "The Monarch Project" */;
 			buildPhases = (
 				18D0699B260FDE72009AA67E /* Sources */,
 				18D0699C260FDE72009AA67E /* Frameworks */,
@@ -162,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = "Soco Project";
+			name = "The Monarch Project";
 			productName = "Soco Project";
-			productReference = 18D0699F260FDE72009AA67E /* Soco Project.app */;
+			productReference = 18D0699F260FDE72009AA67E /* The Monarch Project.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18D069B4260FDE7C009AA67E /* Soco ProjectTests */ = {
+		18D069B4260FDE7C009AA67E /* The Monarch ProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D069CC260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco ProjectTests" */;
+			buildConfigurationList = 18D069CC260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "The Monarch ProjectTests" */;
 			buildPhases = (
 				18D069B1260FDE7C009AA67E /* Sources */,
 				18D069B2260FDE7C009AA67E /* Frameworks */,
@@ -180,14 +195,14 @@
 			dependencies = (
 				18D069B7260FDE7C009AA67E /* PBXTargetDependency */,
 			);
-			name = "Soco ProjectTests";
+			name = "The Monarch ProjectTests";
 			productName = "Soco ProjectTests";
-			productReference = 18D069B5260FDE7C009AA67E /* Soco ProjectTests.xctest */;
+			productReference = 18D069B5260FDE7C009AA67E /* The Monarch ProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		18D069BF260FDE7C009AA67E /* Soco ProjectUITests */ = {
+		18D069BF260FDE7C009AA67E /* The Monarch ProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D069CF260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco ProjectUITests" */;
+			buildConfigurationList = 18D069CF260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "The Monarch ProjectUITests" */;
 			buildPhases = (
 				18D069BC260FDE7C009AA67E /* Sources */,
 				18D069BD260FDE7C009AA67E /* Frameworks */,
@@ -198,9 +213,9 @@
 			dependencies = (
 				18D069C2260FDE7C009AA67E /* PBXTargetDependency */,
 			);
-			name = "Soco ProjectUITests";
+			name = "The Monarch ProjectUITests";
 			productName = "Soco ProjectUITests";
-			productReference = 18D069C0260FDE7C009AA67E /* Soco ProjectUITests.xctest */;
+			productReference = 18D069C0260FDE7C009AA67E /* The Monarch ProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18D0699A260FDE71009AA67E /* Build configuration list for PBXProject "Soco Project" */;
+			buildConfigurationList = 18D0699A260FDE71009AA67E /* Build configuration list for PBXProject "The Monarch Project" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -238,9 +253,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18D0699E260FDE72009AA67E /* Soco Project */,
-				18D069B4260FDE7C009AA67E /* Soco ProjectTests */,
-				18D069BF260FDE7C009AA67E /* Soco ProjectUITests */,
+				18D0699E260FDE72009AA67E /* The Monarch Project */,
+				18D069B4260FDE7C009AA67E /* The Monarch ProjectTests */,
+				18D069BF260FDE7C009AA67E /* The Monarch ProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,8 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18079D902617F57300D53282 /* FeedView.swift in Sources */,
 				18D069A3260FDE72009AA67E /* AppDelegate.swift in Sources */,
+				18E66FD1262B947200C0B0C0 /* Map.swift in Sources */,
+				18079D9D26182AAC00D53282 /* userData.swift in Sources */,
 				18D069D826105162009AA67E /* HomeView.swift in Sources */,
+				18AB514D2680123300FE1384 /* MissionView.swift in Sources */,
+				18079D982618285E00D53282 /* CameraView.swift in Sources */,
 				18D069A5260FDE72009AA67E /* SceneDelegate.swift in Sources */,
 				18D069A7260FDE72009AA67E /* ContentView.swift in Sources */,
 			);
@@ -305,12 +325,12 @@
 /* Begin PBXTargetDependency section */
 		18D069B7260FDE7C009AA67E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18D0699E260FDE72009AA67E /* Soco Project */;
+			target = 18D0699E260FDE72009AA67E /* The Monarch Project */;
 			targetProxy = 18D069B6260FDE7C009AA67E /* PBXContainerItemProxy */;
 		};
 		18D069C2260FDE7C009AA67E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18D0699E260FDE72009AA67E /* Soco Project */;
+			target = 18D0699E260FDE72009AA67E /* The Monarch Project */;
 			targetProxy = 18D069C1260FDE7C009AA67E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -448,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Soco Project/Preview Content\"";
 				DEVELOPMENT_TEAM = JC5TT23LFJ;
@@ -459,6 +480,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "myself-iggi.Soco-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Soco Project/Preview Content\"";
 				DEVELOPMENT_TEAM = JC5TT23LFJ;
@@ -480,6 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "myself-iggi.Soco-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -503,7 +527,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soco Project.app/Soco Project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Monarch Project.app/The Monarch Project";
 			};
 			name = Debug;
 		};
@@ -525,7 +549,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soco Project.app/Soco Project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Monarch Project.app/The Monarch Project";
 			};
 			name = Release;
 		};
@@ -572,7 +596,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18D0699A260FDE71009AA67E /* Build configuration list for PBXProject "Soco Project" */ = {
+		18D0699A260FDE71009AA67E /* Build configuration list for PBXProject "The Monarch Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18D069C7260FDE7C009AA67E /* Debug */,
@@ -581,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18D069C9260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco Project" */ = {
+		18D069C9260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "The Monarch Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18D069CA260FDE7D009AA67E /* Debug */,
@@ -590,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18D069CC260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco ProjectTests" */ = {
+		18D069CC260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "The Monarch ProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18D069CD260FDE7D009AA67E /* Debug */,
@@ -599,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18D069CF260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "Soco ProjectUITests" */ = {
+		18D069CF260FDE7D009AA67E /* Build configuration list for PBXNativeTarget "The Monarch ProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18D069D0260FDE7D009AA67E /* Debug */,
